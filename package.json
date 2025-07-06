@@ -8,9 +8,14 @@
   ],
   "license": "ISC",
   "author": "Ashutosh Maurya",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "d": "^1.0.2",
+    "nodemon": "^3.1.10"
   }
 }
